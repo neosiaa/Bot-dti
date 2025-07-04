@@ -2,7 +2,8 @@ const { SlashCommandBuilder } = require('discord.js');
 
 const imageFiles = [
   'image1',
-  'image2'
+  'image2',
+  'image3'
 ];
 
 module.exports = {
@@ -26,7 +27,7 @@ module.exports = {
 
   async execute(interaction) {
     const nomImage = interaction.options.getString('nom');
-    const url = `https://raw.githubusercontent.com/XXXXX/bot-dti/main/images/${nomImage}.jpg`;
+    const url = `https://raw.githubusercontent.com/neosiaa/bot-dti/main/images/${nomImage}.jpg`;
     await interaction.reply({ files: [url] });
   }
 };
