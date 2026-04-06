@@ -411,7 +411,20 @@ const imageFiles = [
   'voleurdelombre_piecesoccultes',
   'voleurdelombre_plaieempoisonnee',
   'voleurdelombre_tourdecartes',
-  'iceberg_dégèleII'
+  'iceberg_dégèleII',
+  'iceberg_friandisefroideII',
+  'iceberg_frissonassurés',
+  'iceberg_geléetinconvénients',
+  'iceberg_givreII',
+  'iceberg_glacefraiche',
+  'iceberg_glissersurfineglace',
+  'iceberg_instantgelé',
+  'iceberg_regardglacé',
+  'iceberg_rimeII',
+  'iceberg_royaumedelhiver',
+  'iceberg_skiercestcroire',
+  'iceberg_sangfroidII',
+  'iceberg_longuevieaufroidII'
 ];
 
 module.exports = {
