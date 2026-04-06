@@ -410,7 +410,8 @@ const imageFiles = [
   'voleurdelombre_pickpocketII',
   'voleurdelombre_piecesoccultes',
   'voleurdelombre_plaieempoisonnee',
-  'voleurdelombre_tourdecartes'
+  'voleurdelombre_tourdecartes',
+  'iceberg_dégèleII'
 ];
 
 module.exports = {
