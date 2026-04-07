@@ -413,7 +413,7 @@ const imageFiles = [
   'voleurdelombre_tourdecartes',
   'iceberg_cryogénialII',
   'iceberg_douceurglacée',
-  'iceberg_frissonassurés',
+  'iceberg_frissonsassurés',
   'iceberg_frigorifique',
   'iceberg_givreII',
   'iceberg_tropfrais',
