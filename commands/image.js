@@ -1,6 +1,12 @@
 const { SlashCommandBuilder } = require('discord.js');
+const fs = require('fs');
+const path = require('path');
 
-const imageFiles = [
+const dossierImages = path.join(__dirname, '../images');
+
+const imageFiles = fs.readdirSync(dossierImages)
+  .filter(file => file.endsWith('.jpg'))
+  .map(file => file.replace('.jpg', ''));
   'artificier_attaquenanite',
   'artificier_bouclierelectromagnetique',
   'artificier_conductivite',
