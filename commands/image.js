@@ -7,6 +7,7 @@ const dossierImages = path.join(__dirname, '../images');
 const imageFiles = fs.readdirSync(dossierImages)
   .filter(file => file.endsWith('.jpg'))
   .map(file => file.replace('.jpg', ''));
+
   'artificier_attaquenanite',
   'artificier_bouclierelectromagnetique',
   'artificier_conductivite',
