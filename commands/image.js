@@ -432,7 +432,6 @@ const imageFiles = fs.readdirSync(dossierImages)
   'iceberg_resterdeglace',
   'iceberg_sangfroidII',
   'iceberg_longuevieaufroidII'
-];
 
 module.exports = {
   data: new SlashCommandBuilder()
